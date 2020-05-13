@@ -20,6 +20,9 @@ return [
         'user' => [
             'class' => 't2cms\user\console\Module',
         ], 
+        't2cms' => [
+            'class' => 't2cms\base\console\Module',
+        ], 
     ],
     'controllerMap' => [
         'fixture' => [
