@@ -31,13 +31,10 @@ return [
         'module' => [
             'class' => 't2cms\module\Module',
         ],
-        'acf' => [
-            'class' => 't2cms\acf\Module',
-        ],
     ],
     'components' => [
         'request' => [
-            'csrfParam' => '_csrf-backend',
+            'csrfParam' => '_csrf-t2cms',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -47,7 +44,7 @@ return [
         ],
         'session' => [
             // this is the name of the session cookie used for login on the backend
-            'name' => 'advanced-backend',
+            'name' => 'advanced-t2cms',
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -129,12 +126,12 @@ return [
             'rules' => [
                 [
                     'class' => 'startpl\t2cmsblog\components\CategoryUrlRule',
-                    //'prefix' => 'blog'
+                    'prefix' => 'blog'
                 ],
-                [
-                    'class' => 'startpl\t2cmsblog\components\PageUrlRule',
-                    //'prefix' => 'blog'
-                ],
+//                [
+//                    'class' => 'startpl\t2cmsblog\components\PageUrlRule',
+//                    //'prefix' => 'blog'
+//                ],
             ],
         ],
         'settings' => [
@@ -167,6 +164,8 @@ return [
                     'name' => 'Files'
                 ],
                 [
+                    'baseUrl' => '',
+                    'basePath' => '@www',
                     'path' => 'uploads/images',
                     'name' => 'Images'
                 ],

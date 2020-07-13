@@ -26,6 +26,8 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
 
+<?php debug(\Yii::$app->language);?>
+    
 <div class="wrap">
     <?php
     NavBar::begin([
@@ -35,6 +37,7 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
+    
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],

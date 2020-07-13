@@ -15,20 +15,23 @@ return [
         'blog' => [
             'class' => 'startpl\t2cmsblog\frontend\Module',
         ],
+        'api' => [
+            'class' => '\t2cms\api\Module'
+        ]
     ],
     'components' => [
         'request' => [
-            'csrfParam' => '_csrf-frontend',
+            'csrfParam' => '_csrf-t2cms',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
             'identityCookie' => ['name' => '_identity-t2cms', 'httpOnly' => true],
-            'loginUrl' => '/admin/login',            
+            'loginUrl' => '/admin/login',
         ],
         'session' => [
             // this is the name of the session cookie used for login on the frontend
-            'name' => 'advanced-frontend',
+            'name' => 'advanced-t2cms',
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -68,10 +71,11 @@ return [
         'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@app/views' => '@theme',
-                    '@app/modules' => '@theme',
-                    '@app/widgets' => '@theme'
+                    '@app/views' => ['@themePath', '@themes/default'],
+                    '@app/modules' => '@themePath/modules',
+                    '@app/widgets' => '@themePath/widgets'
                 ],
+                'baseUrl' => '@web/themes/@theme',
             ],
         ],
     ],

@@ -33,5 +33,22 @@ return [
                 ],
             ],
         ],
+        'urlManagerFrontend' => [
+            'class' => 'yii\web\UrlManager',
+            'baseUrl' => '',
+            'enablePrettyUrl' => true,
+            'enableStrictParsing' => true,
+            'showScriptName' => false,
+            'rules' => [
+                [
+                    'class' => 'startpl\t2cmsblog\components\CategoryUrlRule',
+                    //'prefix' => 'blog'
+                ],
+                [
+                    'class' => 'startpl\t2cmsblog\components\PageUrlRule',
+                    //'prefix' => 'blog'
+                ],
+            ],
+        ],
     ],
 ];

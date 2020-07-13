@@ -16,7 +16,6 @@
                 </a>
             </div>
         </div>
-
         <?= dmstr\widgets\Menu::widget(
             [
                 'options' => ['class' => 'sidebar-menu tree', 'data-widget'=> 'tree'],
@@ -25,11 +24,29 @@
                     [
                         'label' => \Yii::t('app', 'Blog'), 'icon' => 'list', 'items' => [
                             ['label' => \Yii::t('app', 'Categories'), 'icon' => 'list', 'url' => ['/blog']],
-                            ['label' => \Yii::t('app', 'Pages'), 'icon' => 'list', 'url' => ['/blog/pages']]
+                            [
+                                'label' => \Yii::t('app', 'Pages'), 
+                                'icon' => 'list', 
+                                'url' => ['/blog/pages'],
+                                'active' => (
+                                    \Yii::$app->controller->module->id === 'blog' && \Yii::$app->controller->id === 'pages'
+                                )
+                            ]
                         ]
                     ],
                     ['label' => \Yii::t('app', 'Menu'), 'icon' => 'link', 'url' => ['/menu']],
-                    ['label' => \Yii::t('app', 'Modules'), 'icon' => 'puzzle-piece', 'url' => ['/module']],
+                    [
+                        'label' => \Yii::t('app', 'Modules'), 
+                        'icon' => 'puzzle-piece', 
+                        'items' => array_merge(
+                            [[
+                                'label' => \Yii::t('app', 'Modules'), 
+                                'icon' => 'puzzle-piece', 
+                                'url' => ['/module'],
+                            ]],
+                            \t2cms\module\services\ModuleMenuFacade::getModulesToMenu()
+                        )
+                    ],
                     ['label' => \Yii::t('app', 'Design'), 'icon' => 'magic', 'url' => ['/design']],
                     ['label' => \Yii::t('app', 'Users'), 'icon' => 'address-book', 'items' => [
                         ['label' => \Yii::t('app', 'Users'), 'icon' => 'list', 'url' => ['/user']],
