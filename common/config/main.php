@@ -6,13 +6,6 @@ return [
     ],
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
-        'db' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2',
-            'username' => 'root',
-            'password' => '',
-            'charset' => 'utf8mb4',
-        ],
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
         ],

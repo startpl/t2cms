@@ -25,6 +25,7 @@ the installed application. You only need to do these once for all.
    php /path/to/t2cms-application/init
    ```
 2. Create a new database and adjust the `components['db']` configuration in `/path/to/t2cms-application/common/config/main.php` accordingly.
+   Also you should set charset = utf8mb4 
 
 3. Open a console terminal, apply migrations with command `php /path/to/t2cms-application/yii migrate`.
 
