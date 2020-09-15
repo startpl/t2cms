@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "726ff1db2df810b782c2ba99f2b47412",
+    "content-hash": "3fcdbd83475819425242f52fa05ae210",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -1026,12 +1026,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/startpl/t2cms-blog.git",
-                "reference": "8f5a6b671afc257ffe7cfc5737a26e66e41f0ccd"
+                "reference": "7b3772ea848fc1333a6854d779bac22a50616f40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/startpl/t2cms-blog/zipball/8f5a6b671afc257ffe7cfc5737a26e66e41f0ccd",
-                "reference": "8f5a6b671afc257ffe7cfc5737a26e66e41f0ccd",
+                "url": "https://api.github.com/repos/startpl/t2cms-blog/zipball/7b3772ea848fc1333a6854d779bac22a50616f40",
+                "reference": "7b3772ea848fc1333a6854d779bac22a50616f40",
                 "shasum": ""
             },
             "require": {
@@ -1068,7 +1068,7 @@
                 " ns",
                 "yii2"
             ],
-            "time": "2020-09-14T12:11:46+00:00"
+            "time": "2020-09-15T13:04:42+00:00"
         },
         {
             "name": "startpl/t2cms-composer",
@@ -1122,12 +1122,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/startpl/t2cms-core.git",
-                "reference": "80a90e09ef9b3eb9b441e86acf076800bf20f959"
+                "reference": "1993aaf8669627abb0a2b7eda75cdf85ba0dd50e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/startpl/t2cms-core/zipball/80a90e09ef9b3eb9b441e86acf076800bf20f959",
-                "reference": "80a90e09ef9b3eb9b441e86acf076800bf20f959",
+                "url": "https://api.github.com/repos/startpl/t2cms-core/zipball/1993aaf8669627abb0a2b7eda75cdf85ba0dd50e",
+                "reference": "1993aaf8669627abb0a2b7eda75cdf85ba0dd50e",
                 "shasum": ""
             },
             "require": {
@@ -1166,15 +1166,21 @@
                 " multisite cms",
                 "cms yii2"
             ],
-            "time": "2020-09-14T12:40:09+00:00"
+            "time": "2020-09-15T13:17:59+00:00"
         },
         {
             "name": "startpl/t2cms-module",
             "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "../modules/startpl/t2cms-module",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/startpl/t2cms-module.git",
                 "reference": "467b988f4bbbe9d52b1522fa0f0c0ec7ae313425"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/startpl/t2cms-module/zipball/467b988f4bbbe9d52b1522fa0f0c0ec7ae313425",
+                "reference": "467b988f4bbbe9d52b1522fa0f0c0ec7ae313425",
+                "shasum": ""
             },
             "type": "t2cms-module",
             "autoload": {
@@ -1182,6 +1188,7 @@
                     "startpl\\t2cms\\moduleExample\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -1192,9 +1199,7 @@
                 }
             ],
             "description": "The module example for t2cms",
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2020-04-14T10:38:10+00:00"
         },
         {
             "name": "startpl/yii2-nested-sets-menu",
@@ -1883,16 +1888,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.37",
+            "version": "2.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "e8094d1aa9e807fbea970bc1360ab836ffb1b738"
+                "reference": "fd01e747cc66a049ec105048f0ab8dfbdf60bf4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e8094d1aa9e807fbea970bc1360ab836ffb1b738",
-                "reference": "e8094d1aa9e807fbea970bc1360ab836ffb1b738",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fd01e747cc66a049ec105048f0ab8dfbdf60bf4b",
+                "reference": "fd01e747cc66a049ec105048f0ab8dfbdf60bf4b",
                 "shasum": ""
             },
             "require": {
@@ -1993,7 +1998,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-08-07T20:11:56+00:00"
+            "time": "2020-09-14T21:52:10+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
