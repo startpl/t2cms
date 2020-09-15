@@ -8,13 +8,13 @@
     "support": {
         "source": "https://github.com/startpl/t2cms"
     },
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.0",
         "yiisoft/yii2": "~2.0.14",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
-        "dmstr/yii2-adminlte-asset": "^2.1"
+        "dmstr/yii2-adminlte-asset": "^2.1",
+        "startpl/t2cms-core": ">=1.0.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
@@ -25,8 +25,7 @@
         "codeception/module-yii2": "^1.0",
         "codeception/module-filesystem": "^1.0",
         "codeception/verify": "~0.5.0 || ~1.1.0",
-        "symfony/browser-kit": ">=2.7 <=4.2.4",
-        "startpl/t2cms-core": "*"
+        "symfony/browser-kit": ">=2.7 <=4.2.4"
     },
     "config": {
         "process-timeout": 1800,
@@ -37,15 +36,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../modules/startpl/t2cms"
-        },
-        {
-            "type": "path",
             "url": "../modules/startpl/t2cms-module"
-        },
-        {
-            "type": "path",
-            "url": "../modules/startpl/t2cms-composer"
         },
         {
             "type": "composer",

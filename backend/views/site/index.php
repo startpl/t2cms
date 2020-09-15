@@ -15,7 +15,7 @@ $this->title = 'My T2cms application';
                 $model = startpl\t2cmsblog\helpers\CategoryHelper::get(2);
 //                debug(\startpl\t2cms\acf\helpers\ACF::getFields($model))?>
             <?php debug(
- \t2cms\meta\Meta::t('[[city]] was beautiful, but [[robots]] was empty :c')
+ \t2cms\meta\Meta::t('[[city]] was beautiful, but [[robots]] is empty :c')
             );?>
             <?= \startpl\yii2NestedSetsMenu\Menu::widget([
                 'items' => \t2cms\menu\services\nestedSets\MenuArray::getItems('top_menu'),

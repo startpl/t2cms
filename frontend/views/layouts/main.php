@@ -25,8 +25,6 @@ AppAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-
-<?php debug(\Yii::$app->language);?>
     
 <div class="wrap">
     <?php

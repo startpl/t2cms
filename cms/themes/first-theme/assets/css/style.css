@@ -1,0 +1,16 @@
+.page-list .list-item {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.page-list .list-item .img {
+    width: 15%;
+}
+.page-list .list-item .img  img {
+    width: 100%;
+    height: auto;
+}
+
+.page-list .list-item .article {
+    
+}

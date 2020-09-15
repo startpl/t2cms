@@ -1,0 +1,17 @@
+{
+    "name": "startpl/first-theme",
+    "type": "t2cms-theme",
+    "description": "Standart design theme",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "koperdog",
+            "email": "kopderdog.dev@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "startpl\\t2cms\\themes\\first\\": "" }
+    }
+}

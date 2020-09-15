@@ -118,3 +118,8 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+.nav > .change-local-zone {
+    float: left;
+    padding: 9px 0;
+}
