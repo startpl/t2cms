@@ -36,10 +36,6 @@
     },
     "repositories": [
         {
-            "type": "path",
-            "url": "../modules/startpl/t2cms-module"
-        },
-        {
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
