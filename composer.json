@@ -5,6 +5,7 @@
     "homepage": "https://startpl.ru",
     "type": "project",
     "license": "BSD-3-Clause",
+    "version": "1.0.0",
     "support": {
         "source": "https://github.com/startpl/t2cms"
     },
