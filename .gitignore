@@ -30,9 +30,11 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
+/cms/modules/*
 /www/assets/*
 /www/admin/assets/*
-/cms/modules/*
+!/www/assets/.gitkeep
+!/www/admin/assets/.gitkeep
 
 # console commands
 /yii
