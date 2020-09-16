@@ -30,8 +30,8 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
-/www/assets
-/www/admin/assets
+/www/assets/*
+/www/admin/assets/*
 /cms/modules/*
 
 # console commands

@@ -61,7 +61,7 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'suffix' => '/',
+            //'suffix' => '/',
             'rules' => [
                 'manager' => 'manager/default/index',
                 [
