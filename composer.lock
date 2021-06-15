@@ -96,7 +96,7 @@
             "version": "3.5.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
+                "url": "https://github.com/jquery/jquery-dist.git",
                 "reference": "4c0e4becb8263bb5b3e6dadc448d8e7305ef8215"
             },
             "dist": {
@@ -135,7 +135,7 @@
             "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:bestiejs/punycode.js.git",
+                "url": "https://github.com/bestiejs/punycode.js.git",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "dist": {
@@ -993,12 +993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/startpl/t2cms-acf.git",
-                "reference": "c36e0969607a2419c8f276c21a217eda6c49eb6e"
+                "reference": "e292c5369ba00af10f47f84ddef083b9bf557526"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/startpl/t2cms-acf/zipball/c36e0969607a2419c8f276c21a217eda6c49eb6e",
-                "reference": "c36e0969607a2419c8f276c21a217eda6c49eb6e",
+                "url": "https://api.github.com/repos/startpl/t2cms-acf/zipball/e292c5369ba00af10f47f84ddef083b9bf557526",
+                "reference": "e292c5369ba00af10f47f84ddef083b9bf557526",
                 "shasum": ""
             },
             "type": "t2cms-module",
@@ -1018,7 +1018,7 @@
                 }
             ],
             "description": "Advanced custom fields for t2cms",
-            "time": "2020-09-14T10:49:35+00:00"
+            "time": "2020-09-16T07:10:46+00:00"
         },
         {
             "name": "startpl/t2cms-blog",
@@ -1068,7 +1068,7 @@
                 " ns",
                 "yii2"
             ],
-            "time": "2020-09-14T12:11:46+00:00"
+            "time": "2020-09-15T13:04:42+00:00"
         },
         {
             "name": "startpl/t2cms-composer",
@@ -1166,7 +1166,7 @@
                 " multisite cms",
                 "cms yii2"
             ],
-            "time": "2020-09-14T12:40:09+00:00"
+            "time": "2020-09-16T05:07:28+00:00"
         },
         {
             "name": "startpl/t2cms-module",
@@ -1188,6 +1188,7 @@
                     "startpl\\t2cms\\moduleExample\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -1197,7 +1198,8 @@
                     "email": "koperdog.dev@gmail.com"
                 }
             ],
-            "description": "The module example for t2cms"
+            "description": "The module example for t2cms",
+            "time": "2020-04-14T10:38:10+00:00"
         },
         {
             "name": "startpl/yii2-nested-sets-menu",
@@ -1241,16 +1243,16 @@
         },
         {
             "name": "studio-42/elfinder",
-            "version": "2.1.57",
+            "version": "2.1.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Studio-42/elFinder.git",
-                "reference": "087524b1d7a4d76cfd848dee2093cd8daf987f78"
+                "reference": "06ada3132cefd057e1d89cb016f8c82473d420d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/087524b1d7a4d76cfd848dee2093cd8daf987f78",
-                "reference": "087524b1d7a4d76cfd848dee2093cd8daf987f78",
+                "url": "https://api.github.com/repos/Studio-42/elFinder/zipball/06ada3132cefd057e1d89cb016f8c82473d420d4",
+                "reference": "06ada3132cefd057e1d89cb016f8c82473d420d4",
                 "shasum": ""
             },
             "require": {
@@ -1295,7 +1297,7 @@
             ],
             "description": "File manager for web",
             "homepage": "http://elfinder.org",
-            "time": "2020-06-05T08:06:57+00:00"
+            "time": "2021-06-13T15:04:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2875,6 +2877,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -5738,12 +5741,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
